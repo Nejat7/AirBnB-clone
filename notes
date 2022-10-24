@@ -1,0 +1,16 @@
+# AirBnB
+
+# Notes to exchange or nitify changes made or make suggestions
+
+=====================
+### Models in use
+---------------------
+BaseModel
+User
+City
+Amenity
+Place
+State
+Review
+
+
