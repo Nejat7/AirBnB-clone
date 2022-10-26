@@ -9,7 +9,7 @@ class Place(BaseModel):
 
     Arguments:
         city_id (str): City id.
-        usr_id 9str): User id.
+        usr_id (str): User id.
         name (str): Name of Place.
         dcr (str): description of place.
         max_G (int): maximum number of Guests.
