@@ -55,9 +55,10 @@ def to_dict(self):
     """
     returns dictionary with all keys of __dict__
     """
-    dict_1 = self._-dict__.copy()
+    dict_1 = self.__dict__.copy()
     dict_1("__class__") = self.__class__.__name__
-    fir k, v in self.__dict__.igtems():
+    for k, v in self.__dict__.items():
+        if k in ("created_at", "updated_at"):
         v = self.__dict__[k].isoformat()
         dict_1[k] = v
         return dict_1
