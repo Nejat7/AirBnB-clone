@@ -42,7 +42,11 @@ def parse(argmnt):
         return retl
 
 class HBNBCommand(cmd.Cmd):
+<<<<<<< HEAD
     """Defines the HolbertonBnB command interpreter.
+=======
+    """Defines the command interpreter.
+>>>>>>> fassil_AirBnB_clone
     Attributes:
         prompt (str): The command prompt.
     """
