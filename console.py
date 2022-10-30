@@ -42,7 +42,15 @@ def parse(argmnt):
         return retl
 
 class HBNBCommand(cmd.Cmd):
+<<<<<<< HEAD
     """Defines the HolbertonBnB command interpreter.
+=======
+<<<<<<< HEAD
+    """Defines the HolbertonBnB command interpreter.
+=======
+    """Defines the command interpreter.
+>>>>>>> fassil_AirBnB_clone
+>>>>>>> master
     Attributes:
         prompt (str): The command prompt.
     """
@@ -92,6 +100,7 @@ class HBNBCommand(cmd.Cmd):
         print("")
         return True
 
+<<<<<<< HEAD
 def do_create(self, arg):
         """Usage: create <class>
         Create a new class instance and print its id.
@@ -213,6 +222,9 @@ def do_create(self, arg):
                 else:
                     obj.__dict__[k] = v
         storage.save()
+=======
+
+>>>>>>> master
 
 
 
