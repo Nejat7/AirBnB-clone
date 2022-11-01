@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 <<<<<<< HEAD
+<<<<<<< HEAD
 """Module file_storage
 This Module contains a definition for FileStorage Class
 """
@@ -16,6 +17,8 @@ class FileStorage:
     Attributes:
         __file_path (str): string - path to the JSON file
 =======
+=======
+>>>>>>> 6e82d82d7a43d2fd7dc8a7171301ff513ec8f578
 """Defines the FileStorage class."""
 import json
 from models.base_model import BaseModel
@@ -31,6 +34,9 @@ class FileStorage:
     """Represent an abstracted storage engine.
     Attributes:
         __file_path (str): The name of the file to save objects to.
+<<<<<<< HEAD
+>>>>>>> 6e82d82d7a43d2fd7dc8a7171301ff513ec8f578
+=======
 >>>>>>> 6e82d82d7a43d2fd7dc8a7171301ff513ec8f578
         __objects (dict): A dictionary of instantiated objects.
     """
@@ -38,6 +44,7 @@ class FileStorage:
     __objects = {}
 
     def all(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
         """returns the dictionary __objects"""
         return self.__objects
@@ -65,6 +72,8 @@ class FileStorage:
         module = importlib.import_module(f"models.{sub_module}")
         return getattr(module, name)
 =======
+=======
+>>>>>>> 6e82d82d7a43d2fd7dc8a7171301ff513ec8f578
         """Return the dictionary __objects."""
         return FileStorage.__objects
 
@@ -91,4 +100,7 @@ class FileStorage:
                     self.new(eval(cls_name)(**o))
         except FileNotFoundError:
             return
+<<<<<<< HEAD
+>>>>>>> 6e82d82d7a43d2fd7dc8a7171301ff513ec8f578
+=======
 >>>>>>> 6e82d82d7a43d2fd7dc8a7171301ff513ec8f578
