@@ -9,25 +9,25 @@ class Place(BaseModel):
 
     Arguments:
         city_id (str): City id.
-        usr_id (str): User id.
+        user_id (str): User id.
         name (str): Name of Place.
-        dcr (str): description of place.
-        max_G (int): maximum number of Guests.
-        PBN (int): price by night.
-        lat (float): latitude of place
-        lot (float): longitude of place
-        num_room (int): number of rooms
-        num_bath (inrt): number of bathrooms
-        am_id (list): listr of amenity id
+        description (str): description of place.
+        max_guest (int): maximum number of Guests.
+        price_by_night (int): price by night.
+        latitude (float): latitude of place
+        longitude (float): longitude of place
+        number_rooms (int): number of rooms
+        number_bathrooms (inrt): number of bathrooms
+        amenity_ids (list): listr of amenity id
         """
         city_id = ""
-        usr_id = ""
+        user_id = ""
         name = ""
-        dcr = ""
-        num_room = 0
-        num_bath = 0
-        max_G = 0
-        PBN = 0
-        lat = 0.0
-        lot = 0.0
-        am_id = []
+        description = ""
+        number_rooms = 0
+        number_bathrooms = 0
+        max_guest = 0
+        price_by_night = 0
+        latitude = 0.0
+        longitude = 0.0
+        amenity_ids = []

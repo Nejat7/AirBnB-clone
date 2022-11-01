@@ -5,5 +5,5 @@
 class Review(BaseModel):
     """Implementing Review model"""
     place_id = ""
-    usr_id = ""
+    user_id = ""
     text = ""
